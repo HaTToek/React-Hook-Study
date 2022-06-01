@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Counter, Info, Home, ContextSample, Counter2, Info2, Average, Average2 } from './Pages'
+import { Counter, Info, Home, ContextSample, Counter2, Info2, Average, Average2, Info3 } from './Pages'
 import Nav from './Nav'
 
 class App extends Component {
@@ -35,6 +35,9 @@ class App extends Component {
               </Route>
               <Route path="/Average2">
                 <Average2/>
+              </Route>
+              <Route path="/Info3">
+                <Info3/>
               </Route>
             </Switch>
           </BrowserRouter>
